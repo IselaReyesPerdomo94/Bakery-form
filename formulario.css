@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html, body{
+  background-color: #e6ccb3;
+  font-family: Open Sans;
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+#petition{
+  color: saddlebrown;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: Indie Flower;
+  margin-left: 150px;
+  margin-bottom: 1px;
+}
+
+#flavor{
+  margin-left: 190px;
+font-family: Open Sans;
+font-size: 20px;
+}
+
+#cheeseimage{
+  margin-top: 1px;
+  margin-left: 270px;
+}
+
+#covercake{
+  margin-left: 200px;
+}
+
+#comments{
+  font-family: Open Sans;
+  background-color: pink;
+  font-size: 15px;
+}
+
+#buy{
+  margin-left: 280px;
+  font-family: Indie Flower;
+  font-weight: bold;
+  font-size: 30px;
+  color:saddlebrown;
+  background-color: white;
+  height: 70px;
+  width: 200px;
+}

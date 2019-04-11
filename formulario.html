@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./formulario.css">
+  </head>
+  <body>
+    <form class="cakeform" action="index.html" method="post">
+      <h1 id="petition">Cake Petition</h1>
+      <img src="./cheesecake.png" height="100" width="120" id="cheeseimage">
+      <p>Please tell us how you desire your cake in the next form.</p>
+      <div class="bread-flavor">
+      <label for="flavor">What kind of  bread flavor do you want for your cake?
+        Please select one option</label><br>
+      <select id="flavor" name="flavor">
+        <option value="chocolate">Chocolate</option>
+        <option value="cheesecake">Cheesecake</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="banana">Banana</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="lemon">Lemon</option>
+        <option value="butter">Butter</option>
+        <option value="fruits">Mix fruits</option>
+        <option value="orange">Orange</option>
+        </select>
+        <br>
+        <br>
+        </div>
+        <div class="cake-filling">
+          <label for="filling">Choose the cake's filling:</label>
+          <br>
+          <input type="radio" name="chocolate" value="filling" id="chocolatef">
+          <label for="chocolatef">Chocolate</label>
+          <input type="radio" name="vanilla" value="filling" id="vanillaf">
+          <label for="vanillaf">Vanilla</label>
+          <input type="radio" name="creamCheese" value="filling" id="creamCheesef">
+          <label for="creamCheesef">Cream Cheese</label>
+          <input type="radio" name="strawberry" value="filling" id="strawberryf">
+          <label for="strawberryf">Strawberry</label>
+          </div>
+          <br>
+          <div class="cake-cover">
+            <label for="cover">Do you want cover on your cake?</label>
+            <span>Yes</span>
+            <input type="range" name="cover" value="cover"
+            min="1" max="5" step="1">
+            <span>No</span>
+            <div class="yes">
+              <p>If you said yes in the previous question, please select the cover in the following list or<br>
+                Type the flavor of your selection:</p>
+                <input type="text" list="covercake" id="covercake" name="covercake"  >
+                <datalist id="covercake">
+                  <option value="Chocolate">Chocolate</option>
+                  <option value="Vanilla">Vanilla</option>
+                  <option value="Merengue">Merengue</option>
+                  <option value="Fruits">Fruits</option>
+                  <option value="Strawberry">Strawberry</option>
+                </datalist>
+                <!--preguntar a Esteban porque no se ven mis opciones en el formulario-->
+            </div>
+            <br>
+        <div class="toppings">
+          <span>Choose the toppings for your cake (you can choose more than one)</span>
+          <br>
+          <input id="chocolateDrops" name="topping" type="checkbox">
+          <label for="chocolateDrops">Chocolate Drops</label>
+          <input id="cookies" name="topping" type="checkbox">
+          <label for="cookies">Cookies</label>
+          <input id="fruits" name="topping" type="checkbox">
+          <label for="fruits">Mix of fruits</label>
+          <input id="caramel" name="topping" type="checkbox">
+          <label for="caramel">Caramel</label>
+          </div>
+          <div class="comments">
+            <br>
+            <label for="comments">Something else you want to add or any special request?
+            Comment below!</label>
+            <br>
+            <br>
+            <textarea id="comments" name="comments" rows="6" cols="100">Let us know your request!
+              </textarea>
+              <br>
+              <br>
+              <input type="submit" value="Buy!" id="buy">
+          </div>
+
+    </form>
+  </body>
+</html>
